@@ -10,7 +10,6 @@ class LayeredGraph extends StatelessWidget {
     List<double> thoughts = List<double>.filled(100, 40.0); // Blue area data
     List<double> calm = List<double>.filled(100, 50.0);     // Black line data
     List<double> hr = List<double>.filled(100, 30.0);       // Blue line data
-
     return Scaffold(
       appBar: AppBar(title: Text('Layered Graph')),
       body: Center(
